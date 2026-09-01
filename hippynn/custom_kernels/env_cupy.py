@@ -1,6 +1,7 @@
 """
 Cupy implementation of envsum custom kernels for GPU.
 """
+import ERROR ###Kill script for Frontier/AMD/ROCM
 import warnings
 import torch
 import cupy

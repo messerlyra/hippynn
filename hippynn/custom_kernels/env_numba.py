@@ -1,6 +1,7 @@
 """
 Numba implementation of envsum operations.
 """
+import ERROR ###Kill script for Frontier/AMD/ROCM
 # Dev note for the future: Do not attempt the `atexit` call:
 # >>> atexit.register(numba.cuda.close)
 # Causes segfault on program exit on some systems.
